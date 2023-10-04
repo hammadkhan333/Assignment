@@ -1,2 +1,2 @@
 # Assignment
-https://github.com/hammadkhan333/Assignment.git
+https://hammadkhan333.github.io/Assignment/
