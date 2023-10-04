@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALLERY</title>
+    <style>
+         nav {
+        background-color: #333;
+        text-align: center;
+             }
+
+        nav a {
+        text-decoration: none;
+        color: white;
+        margin: 10px;
+         } 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .gallery-item {
+            flex-basis: calc(33.33% - 20px); 
+            margin-bottom: 20px;
+        }
+
+        .gallery-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        
+        .date-location {
+            text-align: center;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="portfolio.html">PORTFOLIO</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="recipe.html">RECIPE</a>
+        </nav>
+    </div>
+    <div class="container">
+        <h1>Photo Gallery</h1>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="image1.jpg" alt="Photo 1">
+                <div class="date-location">
+                    Date: June 1, 2023<br>
+                    Location: Beach
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="image2.jpg" alt="Photo 2">
+                <div class="date-location">
+                    Date: July 15, 2023<br>
+                    Location: Mountains
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="image3.jpg" alt="Photo 3">
+                <div class="date-location">
+                    Date: August 30, 2023<br>
+                    Location: Cityscape
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
